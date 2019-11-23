@@ -1,0 +1,1 @@
+wget --save-cookies cookies.txt 'https://docs.google.com/uc?export=download&id='1JTZt88139-_-hTiPrngBORA3piT2HW_V -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1/p' > confirm.txt && wget --content-disposition --load-cookies cookies.txt 'https://docs.google.com/uc?export=download&id='1JTZt88139-_-hTiPrngBORA3piT2HW_V'&confirm='$(<confirm.txt)

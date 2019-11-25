@@ -1,3 +1,7 @@
+.ipynb_checkpoints
+
 *.h5
-.DS_Store
+*.DS_Store
 *.txt
+
+*.pkl

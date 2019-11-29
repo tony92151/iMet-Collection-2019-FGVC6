@@ -1,0 +1,15 @@
+cd /root/notebooks/imet/iMet-Collection-2019-FGVC6
+
+pip install runipy
+
+pip install numpy==1.17.3
+
+pip install albumentations
+
+pip install prefetch_generator
+
+#python imet_top_solution.py
+
+#runipy runipy.ipynb OutputNotebook.ipynb
+
+runipy runipy.ipynb

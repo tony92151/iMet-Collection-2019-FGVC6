@@ -20,6 +20,9 @@ pip install prefetch_generator
 
 #runipy runipy.ipynb
 
-#cp ~/se_resnext101_32x4d-3b2fe3d8.pth /home/aiforge/.cache/torch/checkpoints/se_resnext101_32x4d-3b2fe3d8.pth
+mkdir -p /home/aiforge/.cache/torch/checkpoints/
 
-runipy  -o imet_top_solution3.ipynb
+cp se_resnext101_32x4d-3b2fe3d8.pth /home/aiforge/.cache/torch/checkpoints/
+
+# runipy  -o imet_top_solution3.ipynb
+python imet_top_solution4.py
